@@ -5,7 +5,7 @@ use Time::HiRes qw(usleep);
 
 my $clear_screen = cls();
 
-sub chooseNum
+sub choose
 {
     my $first = $_[0];
     my $second = $_[1];
